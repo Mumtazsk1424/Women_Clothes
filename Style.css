@@ -1,0 +1,32 @@
+
+
+  .fixed-top{
+    position: fixed;
+    padding: 4px;
+    margin: 0;
+  }
+
+  .darken-image {
+    filter: brightness(50%);
+ }
+ .center_text{
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .img{
+   border-radius: 50%;
+   margin-left: 40px;
+   
+   width: 200px;
+   height: 210px;
+ }
+ .card1{
+  width: 100px;
+ }
+ .container-fuild1{
+  background-color: rgb(156, 156, 158);
+ }
+ 
+ 
+ 
