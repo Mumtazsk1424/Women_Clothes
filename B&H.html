@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  .darken-image {
+           filter: brightness(50%);
+        }
+        .center_text{
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .fixed-top{
+    position: fixed;
+    padding: 4px;
+    margin: 0;
+  }
+</style>
+<body>
+
+  
+  
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+       <img src="Image/MI.jpeg" height="70" width="70">
+       &nbsp;
+       &nbsp;
+       <a class="navbar-brand" href="#"><i><b>Womens Fashion</i></b></a>
+       <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav">  
+         <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2  shadow-lg border border-1 border-secondary">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+            <a class="nav-link active" aria-current="page" href="WomenEthnic.html">WomenEthnic</a>
+          </li>
+
+          <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+            <a class="nav-link active" aria-current="page" href="WomenWestern.html">WomenWestern</a>
+          </li>
+
+          <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+            <a class="nav-link active" aria-current="page" href="Abaya.html">Abaya</a>
+          </li>
+
+          <li class="nav-item  dropdown  rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <b> More Option</b>
+            </a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" href="Jewellery.html"><b>Jewellery</b></a></li>
+              
+              <li><a class="dropdown-item" href="Girls Shoes.html"> <b>Girl Shoes </b></a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+            <a class="nav-link active" aria-current="page" href="B&H.html">Body&Health</a>
+          </li>
+
+          <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+            <a class="nav-link active" aria-current="page" href="Map.html">Map</a>
+          </li>
+
+          
+          &nbsp;
+          &nbsp;
+          <li class="nav-item fs-1" data-bs-toggle="modal" data-bs-target="#login">   
+            <i class="bi bi-person-circle"></i>
+        </li>
+        </ul>
+
+<!-- Modal login -->
+<div class="modal" id="login">
+  <!-- login le liye dialog use karte -->
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <!-- fs= font size  -->
+        <h1 class="modal-title fs-5" >Login!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <!-- mb=margin bottom -->
+          <div class="mb-2">
+            <label class="form-label">Email</label>
+            <input type="text" class="form-control" placeholder="mumtaztazz559@gmail.com">
+          </div>
+          <div class="mb-2">
+            <label  class="form-label">Password</label>
+            <input type="text" class="form-control" placeholder="@mumtaz1424">
+          </div>
+        </form>
+
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary">Login</button>
+  </div>
+ </div>
+</div>
+
+
+</nav>
+
+
+
+ <!-- Carousel section -->
+ <div class="container-fluid">
+  <div class="row">
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3500">
+      <img src="Image/BHC.PNG" class=" w-100 darken-image" height="400px" width="100px" alt="...">
+      <div class="carousel-caption  text-start">
+        
+        <p><a class="btn btn-lg btn-primary" href="#">Shop Now🛒</a></p>
+
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3500">
+      <img src="Image/BHC1.PNG" class=" w-100 darken-image" height="400px" width="100px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+        <p><a class="btn btn-lg btn-primary" href="#">Shop Now🛒</a></p>
+
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3500">
+      <img src="Image/B1.png" class=" w-100 darken-image" height="400px" width="100px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+  
+        <p><a class="btn btn-lg btn-primary" href="#">Shop Now🛒</a></p>
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm-4 mt-3">
+        <div class="card">
+          <img src="Image/BBH1.PNG" height="400" width="400" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Foundation</h5>
+            <p class="card-text">Nabia Women Black Polka Design Nida Matte Fabric Burqa With Georgette Scarf.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+            <a href="#" class="btn btn-warning">Rs.350</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 mt-3">
+        <div class="card">
+          <img src="Image/BBH2.PNG" height="400" width="400" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Lipstick</h5>
+            <p class="card-text">Nabia Women Black Polka Design Nida Matte Fabric Burqa With Georgette Scarf.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+            <a href="#" class="btn btn-warning">Rs.350</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-3">
+        <div class="card">
+          <img src="Image/b2.png" height="400" width="400" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Garnier</h5>
+            <p class="card-text">Nabia Women Black Polka Design Nida Matte Fabric Burqa With Georgette Scarf.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+            <a href="#" class="btn btn-warning">Rs.350</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-3">
+        <div class="card">
+          <img src="Image/b3.png" height="400" width="400" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nivea Cream</h5>
+            <p class="card-text">Nabia Women Black Polka Design Nida Matte Fabric Burqa With Georgette Scarf.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+            <a href="#" class="btn btn-warning">Rs.350</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-3">
+        <div class="card">
+          <img src="Image/b5.png" height="400" width="400" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Powder</h5>
+            <p class="card-text">Nabia Women Black Polka Design Nida Matte Fabric Burqa With Georgette Scarf.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+            <a href="#" class="btn btn-warning">Rs.350</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 mt-3">
+        <div class="card">
+          <img src="Image/b6.png" height="400" width="400" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lipstick</h5>
+            <p class="card-text">Nabia Women Black Polka Design Nida Matte Fabric Burqa With Georgette Scarf.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+            <a href="#" class="btn btn-warning">Rs.350</a>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+</body>
+</html>
